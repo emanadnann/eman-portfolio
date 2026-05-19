@@ -12,7 +12,8 @@ Hi, I’m **Eman Adnan**, an aspiring Web Developer creating clean, interactive,
 This repository showcases my **first professional portfolio website**, built using **HTML, CSS, and JavaScript**.  
 It highlights my skills in **frontend development, responsive design, and interactivity**.  
 
-**View Live:** [Click Here](https://emanadnann.github.io/portfolio/)
+## 🌐 Live Demo
+**View Live:** [Click Here](https://emanadnann.github.io/eman-portfolio/)
 
 --
 
