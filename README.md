@@ -29,9 +29,11 @@ It highlights my skills in **frontend development, responsive design, and intera
 
 ## 🖼 Screenshots
 
-![Homepage](homepage.png)
+### Homepage (click to view live)
+[![Homepage](homepage.png)](https://emanadnann.github.io/eman-portfolio/)
 
-![Projects Section](homepage.png2.png)
+### Projects Section (click to view live)
+[![Projects](homepage.png2.png)](https://emanadnann.github.io/eman-portfolio/)
 
 
 ---
