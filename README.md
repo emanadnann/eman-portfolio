@@ -28,10 +28,10 @@ It highlights my skills in **frontend development, responsive design, and intera
 ---
 
 ## 🖼 Screenshots
-Add screenshots for recruiters to get a visual idea of your work:  
 
-![Homepage](images/da56cd15-fbec-45a4-a680-2b2790f42c2f.png)  
-![Projects Section](images/39961c8b-141c-440e-8ff7-603d7b30b84d.png)  
+![Homepage](homepage.png)
+
+![Projects Section](homepage.png2.png)
 
 
 ---
