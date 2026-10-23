@@ -133,7 +133,11 @@ section{padding-block:clamp(56px,8vw,96px)}
 .pf-row{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
 .pf-row button{font:600 .8rem var(--f-body);background:transparent;color:var(--ink);border:1.5px solid var(--ink);padding:6px 12px;border-radius:6px;cursor:pointer}
 .pf-row button:hover{background:var(--ink);color:var(--paper)}
-
+/* interview coach chat example */
+.coach .bubble{max-width:88%;padding:10px 12px;border-radius:10px;font-size:.88rem;line-height:1.45;background:var(--sheet);border:1px solid var(--line)}
+.coach .bubble .mono{display:block;font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:3px}
+.coach .bubble.a{align-self:flex-end;background:var(--blue-soft);border-color:transparent}
+.coach .bubble.fb{border-left:3px solid var(--pink)}
 /* api endpoints */
 .api{border:1px solid var(--line);border-radius:8px;overflow-x:auto}
 .api table{width:100%;border-collapse:collapse;font:400 .8rem var(--f-mono)}
@@ -308,7 +312,29 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
         </div>
         <dl class="tblock" style="margin:0"><div><dt>Type</dt><dd>Personal</dd></div><div><dt>Year</dt><dd>2026</dd></div><div><dt>Focus</dt><dd>Algorithms, UI</dd></div><div><dt>Status</dt><dd>Live</dd></div></dl>
       </article>
-
+      <!-- Placement Interview Coach -->
+      <article class="sheet wide">
+        <div class="feature">
+          <div class="sheet-body">
+            <h3>Placement Interview Coach</h3>
+            <p>An AI coach that helps students practise for placement and internship interviews. You answer real interview questions and get instant feedback on how to make each answer stronger. I built it for the Hacktoberfest 2026 "Build for a Friend" DEV Challenge (MLH &amp; DEV).</p>
+            <ul class="bullets">
+              <li>Asks real placement interview questions</li>
+              <li>Gives instant AI feedback on each answer</li>
+              <li>Built in Python with a Gradio interface and an open-weight AI model, deployed live on Hugging Face Spaces</li>
+            </ul>
+            <div class="tags"><span class="tag">Python</span><span class="tag">Gradio</span><span class="tag">Hugging Face</span><span class="tag">LLM</span><span class="tag pink">Hacktoberfest 2026</span></div>
+            <div class="links"><a href="https://huggingface.co/spaces/EmanAdnan/placement-interview-coach" target="_blank" rel="noopener">Try it live ↗</a><a href="https://huggingface.co/spaces/EmanAdnan/placement-interview-coach/tree/main" target="_blank" rel="noopener">Source code ↗</a></div>
+          </div>
+          <div class="pf coach" aria-label="Example of the coach asking a question and giving feedback">
+            <div class="pf-row"><span class="mono">Mock interview · example</span></div>
+            <div class="bubble q"><span class="mono">Coach</span>Tell me about a time you solved a difficult problem.</div>
+            <div class="bubble a"><span class="mono">You</span>In my Scala coursework, my salvage route kept failing tests, so I broke it into smaller functions and tested each one.</div>
+            <div class="bubble q fb"><span class="mono">Feedback</span>Good, clear example. Add the result to finish it in STAR form, for example: all 50 tests passed and you got 100/100.</div>
+          </div>
+        </div>
+        <dl class="tblock" style="margin:0"><div><dt>Type</dt><dd>Personal · DEV Challenge</dd></div><div><dt>Year</dt><dd>2026</dd></div><div><dt>Focus</dt><dd>AI, Python</dd></div><div><dt>Status</dt><dd>Live</dd></div></dl>
+      </article>
       <!-- Task Manager API -->
       <article class="sheet">
         <div class="sheet-body">
