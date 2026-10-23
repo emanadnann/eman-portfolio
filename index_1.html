@@ -144,7 +144,7 @@ section{padding-block:clamp(56px,8vw,96px)}
 .lock{color:var(--muted);text-align:right}
 
 /* ocean grid */
-.ocean{display:grid;grid-template-columns:repeat(10,1fr);gap:2px;max-width:260px}
+.ocean{display:grid;grid-template-columns:repeat(10,minmax(0,1fr));gap:2px;flex:0 0 220px;width:220px;max-width:100%}
 .ocean i{aspect-ratio:1;background:var(--blue-soft);border-radius:2px;display:grid;place-items:center;font:500 .6rem var(--f-mono)}
 .ocean i.r{background:var(--ink)}
 .ocean i.k{background:var(--pink);color:var(--sheet)}
